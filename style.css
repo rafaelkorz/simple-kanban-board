@@ -3,26 +3,28 @@ html {
 }
 
 body {
-  background-color: #130f0d;
+  background-color: #fff;
   color: white;
 }
 
 .boards {
   display: flex;
+
   margin-top: 32px;
 }
 
 .board {
-  background: #141316;
-  border: 1px #FD951F11;
+  background: #e4e2e9;
+  border: 0;
   border-radius: 4px;
-  margin: 16px;
+
+  margin: 0 16px;
 }
 
 .board h3 {
   padding: 16px;
   margin: 0;
-  color: #FD951Fcc;
+  color: #000000e0;
 }
 
 .dropzone {
@@ -32,14 +34,15 @@ body {
 }
 
 .card {
+  background-color: #fff;
   padding: 16px;
-  box-shadow: 0 2px 2px -1px #FD951Fcc;
+  box-shadow: 0 2px 2px -1px #0a0703cc;
   width: 250px;
   margin: 25px 0;
   border-radius: 4px;
   font-weight: 600;
   font-size: 18px;
-  background: #1A1A1C;
+  color: #000000e0;
 }
 
 .status {
@@ -66,7 +69,7 @@ body {
   background-color: #FD951F08;
 }
 
-.card .dropzone {
+.card, .dropzone {
   transition: 400ms;
 }
 
